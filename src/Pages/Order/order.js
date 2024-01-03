@@ -8,9 +8,6 @@ const Order = () => {
         <h3>Contact Me</h3>
       </div>
 
-      <img src="" alt="" />
-      <img src="" alt="" />
-      <img src="" alt="" />
 
       <h3>Send Me An Email</h3>
 

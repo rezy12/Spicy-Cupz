@@ -1,13 +1,104 @@
 body{
-    background-color: #f7f2db;
+  background-color: #f7f2db;
 }
 
-.headerQutoe{
-    margin: 0px; 
-    color: #000000; 
-    line-height: 140%; 
-    text-align: center; 
-    word-wrap: break-word; 
-    font-family: Comic Sans MS; 
-    font-size: 44px;
+p{
+  font-size: 30px;
+  text-align: center;
+  width: auto;
+  padding: 55px;
 }
+
+h1,h2,h3,h4{
+  font-size: xx-large;
+  text-align: center;
+}
+
+
+.headerQutoe{
+  margin: 0px; 
+  color: #000000; 
+  line-height: 140%; 
+  text-align: center; 
+  word-wrap: break-word; 
+  font-family: Comic Sans MS; 
+  font-size: 44px;
+}
+
+button{
+  box-sizing: border-box;
+  display: inline-block;
+  font-family: 'Comic Neue', cursive;
+  text-decoration: none;
+  -webkit-text-size-adjust: none;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #c5b883;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  width: auto;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  word-wrap: break-word;
+  mso-border-alt: none;
+  font-size: 14px;
+  padding: 5px;
+  margin: 15px;
+  text-align: center;
+}
+
+    /*images layout*/
+.image-container {
+  flex: 1 1;
+  padding: 50px;
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  Margin: 0 auto;
+}
+
+.image-container img {
+  max-width: 400px; /* Set a fixed maximum width */
+  max-height: 300px; /* Set a fixed maximum height */
+  width: auto; /* Ensure the image takes 100% of the container width */
+  height: auto;
+  padding: 25px;
+  margin: 5px;
+}
+
+.text-container {
+  flex: 1 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+.text-container p{
+  /*color: red; */
+  font-size: xx-large;
+  border-spacing: initial;
+  white-space-collapse: break-spaces;
+  padding: 12px;
+}
+
+.intro-par{
+  flex: 1 1;
+  padding: 50px;
+  width: 40%;
+  height: auto;
+  text-align: center;
+  Margin: 0 auto;
+  padding: 4em;
+}
+
+
+
+
+

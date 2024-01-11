@@ -1,5 +1,6 @@
 import React from 'react'
 import "../Header/header.css";
+import Logo from "../Images/logo.png";
 
 const Header = () => {
     return (
@@ -60,7 +61,7 @@ const Header = () => {
                                                         <tbody><tr>
                                                             <td align="left">
                                                                 <a href="https://sweet-cupz.netlify.app/" target="_blank">
-                                                                    <img align="left" border="0" src="images/logo.png" alt="Logo" title="Logo" width="197.2" />
+                                                                    <img align="left" border="0" src={Logo} alt="Logo" title="Logo" width="197.2" />
                                                                 </a>
                                                             </td>
                                                         </tr>

@@ -1,145 +1,64 @@
 import React from 'react'
 import "../Header/header.css";
 import Logo from "../Images/logo.png";
+import { Link } from "react-router-dom";
 
+// Updated HTML
 const Header = () => {
     return (
-
-
-        <>
-
-            <div>
-                <div class="midLine">
-                    <div>
-
-                        <div>
-                            <div>
-                                <div>
-
-                                    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-                                        <tbody>
-                                            <tr>
-                                                <td align="left" class="bottomLine">
-
-                                                    <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="bottomBar">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <span>&nbsp;</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+        <div>
+            <div className="navigation-bar">
+                {/* Navigation Bar Content */}
             </div>
+            <div className="midLine">
+                <table role="presentation" cellPadding="0" cellSpacing="0" width="100%" border="0">
+                    <tbody>
+                        <tr className='navBarPage'>
+                            <td align="left">
+                                <a target="_blank"> 
+                                <Link to="/"><img align="left" border="0" src={Logo} alt="Logo" title="Logo" width="197.2" /></Link>
+                                </a>
+                                <td align="right" className="navbar-links">
+                                                <div className="dropdown">
+                                                    <a>Menu</a>
+                                                    <div className="dropdown-content">
+                                                        <a href="/menu2">Sweet/Sour Candy</a>
+                                                        <a href="/menu">Spicy Candy</a>
+                                                    </div>
+                                                </div>
+                                                <div className="dropdown">
+                                                    <a>Order</a>
+                                                    <div className="dropdown-content">
+                                                        <a href="/order">Order sweet Spicy</a>
+                                                        <a href="/order2">Order giftbasket</a>
+                                                    </div>
+                                                </div>
+                                                <div className="dropdown">
+                                                    <a>Contact</a>
+                                                    <div className="dropdown-content">
+                                                        <a href="/contract">All Platforms</a>
+                                                        <a href="https://www.instagram.com/spicycupz/">Instagram</a>
+                                                        <a href="https://snapchat.com">Snapchat</a>
+                                                    </div>
+                                                </div>
+                                                <span className="login-button">
+                                                    <a href="#">Login</a>
+                                                </span>
+                                            </td>
 
-            <div>
-                <div class="midLine">
-                    <div>
 
-                        <div>
-                            <div>
-                                <div>
 
-                                    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-                                        <tbody>
-                                            <tr>
-                                                <td align="left" class="midBar">
 
-                                                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                                        <tbody><tr>
-                                                            <td align="left">
-                                                                <a href="https://sweet-cupz.netlify.app/" target="_blank">
-                                                                    <img align="left" border="0" src={Logo} alt="Logo" title="Logo" width="197.2" />
-                                                                </a>
-                                                            </td>
-                                                        </tr>
-                                                        </tbody></table>
-
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
+                            </td>
+                            <td align="right" className="navbar-links">
+                                {/* Navigation Links */}
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
+        </div>
+    );
+};
 
-            <div>
-                <div class="midLine">
-                    <div>
-
-                        <div>
-                            <div>
-                                <div>
-
-                                    <table role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-                                        <tbody>
-                                            <tr>
-                                                <td align="left" class="bottomLine">
-
-                                                    <table height="0px" align="center" border="0" cellpadding="0" cellspacing="0" width="100%" class="bottomBar">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>
-                                                                    <span>&nbsp;</span>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    )
-}
-
-export default Header
+export default Header;

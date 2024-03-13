@@ -1,4 +1,6 @@
-.topLayOut{
+/* Updated CSS for Footer */
+
+.topLayOut {
     border-collapse: collapse;
     display: table;
     width: 100%;
@@ -6,14 +8,14 @@
     background-color: transparent;
 }
 
-.layOut{
-    overflow-wrap:break-word;
-    word-break:break-word;
-    padding:50px 10px 10px;
+.layOut {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    padding: 50px 10px 10px;
     font-family: 'Comic Neue', cursive;
 }
 
-.imgSocial{
+.imgSocial {
     width: 32px !important;
     height: 32px !important;
     display: inline-block;
@@ -23,14 +25,35 @@
     mso-table-lspace: 0pt;
     mso-table-rspace: 0pt;
     vertical-align: top;
-    margin-right: 15px
-
+    margin-right: 15px;
 }
 
-.parLayOut{
-    overflow-wrap:break-word;
-    word-break:break-word;
-    padding:10px;
+.parLayOut {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    padding: 10px;
     font-family: 'Comic Neue', cursive;
 }
 
+/* Additional styles from the second table */
+.v-container-padding-padding {
+    overflow-wrap: break-word;
+    word-break: break-word;
+    padding: 10px 0px;
+    font-family: 'Comic Neue', cursive;
+}
+
+/* Style for the divider line */
+.v-container-padding-padding table {
+    border-collapse: collapse !important;
+    vertical-align: top;
+    font-size: 0px;
+    line-height: 0px;
+    mso-line-height-rule: exactly;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+.v-container-padding-padding span {
+    white-space: nowrap;
+}

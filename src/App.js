@@ -1,10 +1,11 @@
 
-import Contact from "../src/Pages/Order/order";
+import React from "react";
+import HomePage from "../src/Pages/Homepage/homepage";
 import './App.css';
 
 function App() {
   return (
-    <Contact/>
+    <HomePage/>
   );
 }
 

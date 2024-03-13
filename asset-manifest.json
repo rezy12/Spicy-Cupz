@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Spicy-Cupz/static/css/main.2d5f38bb.css",
+    "main.js": "/Spicy-Cupz/static/js/main.39ffa4a6.js",
+    "static/media/two-cup.jpg": "/Spicy-Cupz/static/media/two-cup.4cebb901854dd7fdf668.jpg",
+    "static/media/midcup.png": "/Spicy-Cupz/static/media/midcup.11be94ce17e8f11de4f6.png",
+    "static/media/spiceballs.png": "/Spicy-Cupz/static/media/spiceballs.db14d938d18115617ca8.png",
+    "static/media/stack-cup.png": "/Spicy-Cupz/static/media/stack-cup.d4fe3adbea849af08018.png",
+    "static/media/img2.png": "/Spicy-Cupz/static/media/img2.852819c930cae6b963b0.png",
+    "static/media/img1.png": "/Spicy-Cupz/static/media/img1.4a1f3407288d3a652337.png",
+    "static/media/flowers.jpeg": "/Spicy-Cupz/static/media/flowers.30763a957ec67bca160b.jpeg",
+    "static/media/img3.png": "/Spicy-Cupz/static/media/img3.53582c68d5964b9f3c98.png",
+    "static/media/logo.png": "/Spicy-Cupz/static/media/logo.a55a823dfcdb0bb01163.png",
+    "static/media/smile.PNG": "/Spicy-Cupz/static/media/smile.e4ea46d2b79ae311a82e.PNG",
+    "static/media/slick.svg": "/Spicy-Cupz/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Spicy-Cupz/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Spicy-Cupz/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Spicy-Cupz/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Spicy-Cupz/index.html",
+    "main.2d5f38bb.css.map": "/Spicy-Cupz/static/css/main.2d5f38bb.css.map",
+    "main.39ffa4a6.js.map": "/Spicy-Cupz/static/js/main.39ffa4a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d5f38bb.css",
+    "static/js/main.39ffa4a6.js"
+  ]
+}

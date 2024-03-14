@@ -16,27 +16,27 @@ const Header = () => {
                         <tr className='navBarPage'>
                             <td align="left">
                                 <a target="_blank"> 
-                                <Link to="/"><img align="left" border="0" src={Logo} alt="Logo" title="Logo" width="197.2" /></Link>
+                                <Link to="/"><img className= "logo" align="left" border="0" src={Logo} alt="Logo" title="Logo" width="197.2" /></Link>
                                 </a>
                                 <td align="right" className="navbar-links">
                                                 <div className="dropdown">
                                                     <a>Menu</a>
                                                     <div className="dropdown-content">
-                                                        <a href="/menu2">Sweet/Sour Candy</a>
-                                                        <a href="/menu">Spicy Candy</a>
+                                                        <Link to= "/menu2"><a>Sweet/Sour Candy</a></Link>
+                                                        <Link to= "/menu"><a>Spicy Candy</a></Link>
                                                     </div>
                                                 </div>
                                                 <div className="dropdown">
                                                     <a>Order</a>
                                                     <div className="dropdown-content">
-                                                        <a href="/order">Order sweet Spicy</a>
-                                                        <a href="/order2">Order giftbasket</a>
+                                                        <Link to="/order"><a>Order sweet Spicy</a></Link>
+                                                        <Link to="/order2"><a>Order giftbasket</a></Link>
                                                     </div>
                                                 </div>
                                                 <div className="dropdown">
                                                     <a>Contact</a>
                                                     <div className="dropdown-content">
-                                                        <a href="/contract">All Platforms</a>
+                                                        <Link  to="/contract"><a>All Platforms</a></Link>
                                                         <a href="https://www.instagram.com/spicycupz/">Instagram</a>
                                                         <a href="https://snapchat.com">Snapchat</a>
                                                     </div>

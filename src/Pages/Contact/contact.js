@@ -4,6 +4,7 @@ import Header from "../../components/Header/header";
 import Email from "../../components/Images/emailimg.png";
 import Instag from "../../components/Images/insta.png";
 import Snap from "../../components/Images/snap-imgg.png";
+import Footer from '../../components/Footer/footer';
 
 const contact = () => {
   return (
@@ -66,6 +67,7 @@ const contact = () => {
   </div>
 </div>
 
+<Footer />
 
     </>
   )

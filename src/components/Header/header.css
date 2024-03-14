@@ -69,7 +69,7 @@
 }
 
 .logo {
-    max-width: 200px; /* Set the max-width for the logo */
+    max-width: 180px; /* Set the max-width for the logo */
 }
 
 .navBarPage{
@@ -82,6 +82,7 @@
     font-size: 24px; 
     color: black;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .navbar-links a {

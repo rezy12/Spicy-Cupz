@@ -1,6 +1,7 @@
 import React from 'react';
 import "../Order/order.css";
 import Header from "../../components/Header/header";
+import Footer from '../../components/Footer/footer';
 
 const Order = () => {
   return (
@@ -34,6 +35,8 @@ const Order = () => {
           </form>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }

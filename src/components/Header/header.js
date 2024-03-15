@@ -36,7 +36,7 @@ const Header = () => {
                                                 <div className="dropdown">
                                                     <a>Contact</a>
                                                     <div className="dropdown-content">
-                                                        <Link  to="/contract"><a>All Platforms</a></Link>
+                                                        <Link  to="/contact"><a>All Platforms</a></Link>
                                                         <a href="https://www.instagram.com/spicycupz/">Instagram</a>
                                                         <a href="https://snapchat.com">Snapchat</a>
                                                     </div>

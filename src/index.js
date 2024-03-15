@@ -42,7 +42,7 @@ const router = createBrowserRouter(
       element: <Contact />,
     },
   ],
-  {basename: "/spicy-cupz"}
+  {basename: "/Spicy-cupz"}
 );
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

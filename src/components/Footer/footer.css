@@ -16,8 +16,6 @@
 }
 
 .imgSocial {
-    width: 32px !important;
-    height: 32px !important;
     display: inline-block;
     border-collapse: collapse;
     table-layout: fixed;
@@ -26,7 +24,9 @@
     mso-table-rspace: 0pt;
     vertical-align: top;
     margin-right: 15px;
+    height: 250px;
 }
+
 
 .parLayOut {
     overflow-wrap: break-word;

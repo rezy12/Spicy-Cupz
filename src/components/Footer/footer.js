@@ -1,4 +1,7 @@
 import React from 'react';
+import SnapChatlogo from "../Images/snapimg.png"
+import InstLogo from "../Images/instaimg.png"
+import "../Footer/footer.css";
 
 const Footer = () => {
     return (
@@ -10,12 +13,12 @@ const Footer = () => {
                             <td align="left" className="layOut">
                                 <div align="center">
                                     <div className="img-container">
-                                        <table align="left" border="0" cellSpacing="0" cellPadding="0" width="32" height="32" className="imgSocial">
+                                        <table align="left" border="0" cellSpacing="0" cellPadding="0" className="imgSocial">
                                             <tbody>
                                                 <tr>
                                                     <td align="left" valign="middle">
                                                         <a href="https://www.instagram.com/spicycupz/" title="Instagram" target="_blank">
-                                                            <img src="images/image-2.png" alt="Instagram" title="Instagram" width="32" />
+                                                            <img src={InstLogo} alt="Instagram" title="Instagram"  />
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -26,7 +29,7 @@ const Footer = () => {
                                                 <tr>
                                                     <td align="left" valign="middle">
                                                         <a href="https://t.snapchat.com/zRrTrajp" title="Snapchat" target="_blank">
-                                                            <img src="images/image-3.png" alt="Snapchat" title="Snapchat" width="32" />
+                                                            <img src={SnapChatlogo} alt="Snapchat" title="Snapchat" width="32" />
                                                         </a>
                                                     </td>
                                                 </tr>

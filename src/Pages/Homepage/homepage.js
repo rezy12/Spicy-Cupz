@@ -50,15 +50,18 @@ const Homepage = () => {
           <Slider>
             <div>
               <img src={Img1} alt="Slide 1" />
-              <p>Image 1: Blah blah blah</p>
+              <h1>Spicy Gummy Gools</h1>
+              <p>Price: $5.99 5oz/ $8.99 10oz</p>
             </div>
             <div>
               <img src={Img2} alt="Slide 2" />
-              <p>Image 2: Blah blah blah</p>
+              <h1>Spicy Red Dotz</h1>
+              <p>Price: $4.99 5oz/ $5.99 10oz</p>
             </div>
             <div>
               <img src={Img3} alt="Slide 3" />
-              <p>Image 3: Blah blah blah</p>
+              <h1>Hot Dark Jelly Beans</h1>
+              <p>Price: $2.99 5oz/ $4.99 10oz</p>
             </div>
           </Slider>
           <button className="slick-prev">Previous</button>

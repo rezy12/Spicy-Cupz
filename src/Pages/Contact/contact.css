@@ -9,13 +9,20 @@ body{
   }
   
   .img-container {
-    display: flex;
-    margin: 40px;
+
+      display: flex;
+      margin: 30px;
+      padding: 10px;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
   }
   
   .img-container img {
-    width: 225px;
-    height: auto;
+    width: 5vw;
+    height: 8vh;
+    margin: 15px;
   }
   
   .description {

@@ -99,7 +99,7 @@ button{
 }
 
 .centered-container img {
-  max-width: 75%; 
+  max-width: 50%; 
   max-height: 100%; 
 }
 
@@ -161,7 +161,6 @@ button{
 .carousel-container {
   margin-top: 20px;
   padding: 20px;
-  background-color: #fffde6;
   ;
 }
 
@@ -196,7 +195,7 @@ button{
 
 /* Center the carousel image */
 .slick-slide img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   display: block;
   margin: 0 auto; /* Center the image */

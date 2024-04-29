@@ -1,4 +1,47 @@
-body{
-    background-color: green;
-    color: red;
-}
+/* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Box styles */
+  .box {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    background-color: red;
+    display: flex;
+  }
+  
+  /* Image styles */
+  .box img {
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Content styles */
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Header styles */
+  .content h3 {
+    font-size: 24px;
+  }
+  
+  /* Description styles */
+  .content p {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+  }
+  

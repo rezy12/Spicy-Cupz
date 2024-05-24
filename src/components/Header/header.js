@@ -22,8 +22,8 @@ const Header = () => {
                                                 <div className="dropdown">
                                                     <a>Menu</a>
                                                     <div className="dropdown-content">
-                                                        <Link to= "/menu2"><a>Sweet/Sour Candy</a></Link>
-                                                        <Link to= "/menu"><a>Spicy Candy</a></Link>
+                                                        <Link to= "/menu"><a>Sweet/Sour Candy</a></Link>
+                                                        <Link to= "/menu2"><a>Spicy Candy</a></Link>
                                                     </div>
                                                 </div>
                                                 <div className="dropdown">

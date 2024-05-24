@@ -20,7 +20,7 @@ body{
   }
   
   .img-container img {
-    width: 5vw;
+    width: auto;
     height: 8vh;
     margin: 15px;
   }

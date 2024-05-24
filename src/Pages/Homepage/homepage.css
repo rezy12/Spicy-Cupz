@@ -1,22 +1,20 @@
-body{
+body {
   background-color: white;
 }
 
-p{
+p {
   font-size: 30px;
   text-align: center;
   width: auto;
   padding: 55px;
 }
 
-h1,h2,h3,h4{
+h1, h2, h3, h4 {
   font-size: xx-large;
   text-align: center;
 }
 
-
-/*special someone*/
-/* Updated CSS */
+/* Special Someone Section */
 .specialSomeone {
   display: flex;
   align-items: flex-start;
@@ -32,17 +30,29 @@ h1,h2,h3,h4{
   max-width: 100%;
   height: auto;
   display: block;
-  max-width: 100%;
   max-height: 100%;
   object-fit: cover;
-  display: block;
 }
 
+/* Style for the specific text-container section */
 .text-container {
-  flex: 2;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white; /* Adjust the background color as needed */
+}
+
+.text-content {
+  flex: 1;
+  padding-right: 20px; /* Space between text and image */
+}
+
+.carousel-image {
+  flex: 0 0 auto; /* Prevent the image from growing or shrinking */
+  max-width: 300px; /* Adjust the max-width as needed */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
 }
 
 h3 {
@@ -53,123 +63,96 @@ button {
   align-self: flex-end;
 }
 
-
-
-.headerQutoe{
-  margin: 0px; 
-  color: #000000; 
-  line-height: 140%; 
-  text-align: center; 
-  word-wrap: break-word; 
-  font-family: Comic Sans MS; 
+.headerQutoe {
+  margin: 0px;
+  color: #000000;
+  line-height: 140%;
+  text-align: center;
+  word-wrap: break-word;
+  font-family: Comic Sans MS;
   font-size: 44px;
 }
 
-button{
+button {
   box-sizing: border-box;
   display: inline-block;
   font-family: 'Comic Neue', cursive;
   text-decoration: none;
-  -webkit-text-size-adjust: none;
   text-align: center;
   color: #FFFFFF;
   background-color: #c5b883;
   border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
   width: auto;
   max-width: 100%;
   overflow-wrap: break-word;
   word-break: break-word;
   word-wrap: break-word;
-  mso-border-alt: none;
   font-size: 14px;
   padding: 5px;
   margin: 15px;
   text-align: center;
 }
 
-
-/*homepage smile*/
+/* Centered Container for Smile Image */
 .centered-container {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30vh;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
 }
 
 .centered-container img {
-  max-width: 50%; 
-  max-height: 100%; 
+  max-width: 50%;
+  max-height: 100%;
 }
 
-
-    /*images layout*/
+/* Images Layout */
 .image-container {
-  flex: 1 1;
+  flex: 1;
   padding: 50px;
   width: 40%;
-  height: auto;
-  display: flex;
-  align-items: center;
   text-align: center;
-  Margin: 0 auto;
 }
 
 .image-container img {
-  max-width: 400px;
-    max-height: 300px;
-    width: auto;
-    height: auto;
-    padding: 25px;
-    margin: 5px;
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  padding: 25px;
+  margin: 5px;
 }
 
 .text-container {
-  flex: 1 1;
+  flex: 1;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: center;
   align-items: center;
 }
 
-.text-container p{
-  /*color: red; */
+.text-container p {
   font-size: xx-large;
-  border-spacing: initial;
-  white-space-collapse: break-spaces;
   padding: 12px;
 }
 
-.intro-par{
-  flex: 1 1;
+.intro-par {
+  flex: 1;
   padding: 50px;
   width: 40%;
-  height: auto;
   text-align: center;
-  Margin: 0 auto;
+  margin: 0 auto;
   padding: 4em;
 }
 
-/* Add the following CSS for the carousel section */
+/* Carousel Section */
 .carousel-container {
   margin-top: 20px;
   padding: 20px;
-  ;
 }
-
 
 .slick-slider {
   width: 80%;
   margin: 0 auto;
 }
-
 
 .slick-prev {
   left: -40px;
@@ -193,53 +176,36 @@ button{
   background-color: #000;
 }
 
-/* Center the carousel image */
-.slick-slide img {
-  max-width: 50%;
-  height: auto;
-  display: block;
-  margin: 0 auto; /* Center the image */
-}
-
-/* Add the following CSS for the combined section */
-.combined-section {
+/* Flexbox for carousel slide content */
+.carousel-slide {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* Align items to the start */
   align-items: center;
   padding: 20px; /* Adjust the padding as needed */
   background-color: white; /* Adjust the background color as needed */
 }
 
-.intro-par {
-  max-width: 45%; /* Adjust the max-width for the left section */
+/* Style for carousel image */
+.carousel-image {
+  max-width: 50%; /* Adjust the max-width as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between image and text */
 }
 
-.image-container {
-  max-width: 45%; /* Adjust the max-width for the right section */
+/* Style for carousel text */
+.carousel-text {
+  max-width: 50%; /* Adjust the max-width as needed */
 }
 
-/* Add your existing styles below this line */
-body {
+.carousel-text h1 {
   margin: 0;
-  padding: 0;
-  font-family: 'Ranga', cursive;
+  font-size: 1.5em; /* Adjust the font size as needed */
 }
 
-table, tr, td {
-  vertical-align: top;
-  border-collapse: collapse;
+.carousel-text p {
+  margin: 10px 0 0; /* Space between the header and the price */
+  font-size: 1.2em; /* Adjust the font size as needed */
 }
-
-p {
-  margin: 0;
-}
-
-.ie-container table,
-.mso-container table {
-  table-layout: fixed;
-}
-
-
 
 /* Add media query for smaller screens if needed */
 @media (max-width: 620px) {
@@ -252,8 +218,3 @@ p {
     max-width: 100%;
   }
 }
-
-
-
-
-

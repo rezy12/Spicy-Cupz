@@ -12,7 +12,6 @@
     height: 300px;
     margin: 20px;
     border: 1px solid black;
-    background-color: red;
     display: flex;
   }
   
@@ -30,18 +29,47 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    padding: 10px; 
+  overflow: hidden; 
+  text-align: center;
   }
   
   /* Header styles */
   .content h3 {
     font-size: 24px;
+    padding: 12px;
   }
   
   /* Description styles */
   .content p {
-    font-size: 18px;
-    text-align: center;
-    margin: 10px;
-  }
+  flex: 1; /* Allow content to take up the remaining space */
+  display: flex; /* Flex layout for alignment */
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  padding: 10px; /* Add padding for space around the content */
+  text-align: center; /* Center the text */
+  margin: 3px;
+}
+
+/*title page*/
+.Title {
+  text-align: center; /* Center align the content */
+  background-image: url(); /* Replace 'background.jpg' with the path to your background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  
+  padding: 50px; /* Add padding for spacing around the content */
+}
+
+.Title h1 {
+  font-size: 2.5em; /* Adjust the font size of the title */
+}
+
+.Title p {
+  font-size: 1.2em; /* Adjust the font size of the paragraph */
+}
+
+
+  
   

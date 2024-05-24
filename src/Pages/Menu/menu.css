@@ -2,16 +2,30 @@ body{
     background-color: white;
 }
 
-/*header titile*/
-.titlePage{
-    text-align: center;
-    margin: 30px;
-    padding: 23px;
-    font-size: xx-large;
+
+/*sides to click when jump to page*/
+.sidestream{
+    color: red;
 }
-.titlePage p{
-    font-size: 24px;
-}
+
+/*title page*/
+.Title {
+    text-align: center; /* Center align the content */
+    background-image: url(); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    
+    padding: 50px; /* Add padding for spacing around the content */
+  }
+  
+  .Title h1 {
+    font-size: 2.5em; /* Adjust the font size of the title */
+  }
+  
+  .Title p {
+    font-size: 1.2em; /* Adjust the font size of the paragraph */
+  }
+  
 
 
 .titleHead{

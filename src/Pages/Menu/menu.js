@@ -3,12 +3,16 @@ import "../Menu/menu.css"
 import React from 'react';
 import Header from "../../components/Header/header";
 import Footer from "../../components/Footer/footer";
-import SpicyFlower from "../../components/Images/flowers.jpeg";
-import ChamoyCups from "../../components/Images/midcup.png";
-import DryDustedGummies from "../../components/Images/spiceballs.png";
-import MiniSweetCups from "../../components/Images/stack-cup.png";
-import SpicyPop from "../../components/Images/two-cup.jpg";
+import Sweet1 from "../../components/Images/sweet1.png"
+import Sweet2 from "../../components/Images/sweet2.png"
+import Sweet3 from "../../components/Images/sweet3.png"
+import Sweet4 from "../../components/Images/sweet4.png"
+import Sweet5 from "../../components/Images/sweet5.png"
+import Sweet6 from "../../components/Images/sweet6.png"
+import Sweet7 from "../../components/Images/sweet7.png"
+import Sweet8 from "../../components/Images/sweet8.png"
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -19,72 +23,70 @@ const Menu = () => {
 
       <Header />
 
-      <div class="titlePage">
-        <h1>Spicy Section</h1>
-        <h6>Checkout Sweet section</h6>
-        <p>Welcome to Spicy Cupz, where bold flavors meet the thrill of heat! Our menu is a paradise for spice enthusiasts, offering a diverse selection of fiery candies that will tantalize your taste buds.</p>
-        <p>Explore our range of handpicked spicy delights, available in various sizes to suit every craving. From sweet and tangy to intense heat, each candy is crafted to perfection, ensuring a unique and unforgettable experience with every bite.</p>
-        <p>Dive into our menu and embark on a journey through the exciting world of spicy candy. Whether you're a seasoned spice lover or looking to spice up your taste buds, Spicy Cupz has something for everyone!</p>
+
+      <div className='Title'>
+        <h1>Sweet Section</h1>
+        <p>Welcome to <div className="sidestream">SweetSide</div><Link to= "/menu"><a>Sour Side</a></Link></p>
+     </div>
+
+      
+    <div className="container">
+      <div className="box">
+        <img src={Sweet1} alt="Image 1" />
+        <div className="content">
+          <h3>Strawberry Gummies</h3>
+          <p>Sweet and juicy strawberry gummies bursting with fruity flavor. Price: $10</p>
+        </div>
+      </div>
+      <div className="box">
+        <img src={Sweet2} alt="Image 2" />
+        <div className="content">
+          <h3>Orange Gummies</h3>
+          <p>Zesty orange gummies with a tangy burst of citrus flavor. Price: $15</p>
+        </div>
+      </div>
+      <div className="box">
+        <img src={Sweet3} alt="Image 3" />
+        <div className="content">
+          <h3>Blueberry  SweetTapes</h3>
+          <p>Blueberry rolling tape gum with a sweet and tangy flavor twist. Price: $20</p>
+        </div>
+      </div>
+      <div className="box">
+        <img src={Sweet4} alt="Image 4" />
+        <div className="content">
+          <h3>Watermelon Jars</h3>
+          <p>Juicy watermelon gummies with a refreshing burst of fruity sweetness. Price: $25</p>
+        </div>
       </div>
 
       
     <div className="container">
       <div className="box">
-        <img src="image1.jpg" alt="Image 1" />
+        <img src={Sweet5} alt="Image 1" />
         <div className="content">
-          <h3>Basket 1</h3>
-          <p>Description of Basket 1. Price: $10</p>
+          <h3>Dino Gummies</h3>
+          <p>Dinosaur-shaped gummies: a fun and fruity prehistoric treat for all ages. Price: $10</p>
         </div>
       </div>
       <div className="box">
-        <img src="image2.jpg" alt="Image 2" />
+        <img src={Sweet6} alt="Image 2" />
         <div className="content">
-          <h3>Basket 2</h3>
-          <p>Description of Basket 2. Price: $15</p>
+          <h3>Kiwi Gummies</h3> 
+          <p>Sweet and tangy kiwi gummies with a vibrant, tropical flavor. Price: $15</p>
         </div>
       </div>
       <div className="box">
-        <img src="image3.jpg" alt="Image 3" />
+        <img src={Sweet7} alt="Image 3" />
         <div className="content">
-          <h3>Basket 3</h3>
+          <h3>Sweet Hearts</h3>
           <p>Description of Basket 3. Price: $20</p>
         </div>
       </div>
       <div className="box">
-        <img src="image4.jpg" alt="Image 4" />
+        <img src={Sweet8} alt="Image 4" />
         <div className="content">
-          <h3>Basket 4</h3>
-          <p>Description of Basket 4. Price: $25</p>
-        </div>
-      </div>
-
-      
-    <div className="container">
-      <div className="box">
-        <img src="image1.jpg" alt="Image 1" />
-        <div className="content">
-          <h3>Basket 1</h3>
-          <p>Description of Basket 1. Price: $10</p>
-        </div>
-      </div>
-      <div className="box">
-        <img src="image2.jpg" alt="Image 2" />
-        <div className="content">
-          <h3>Basket 2</h3>
-          <p>Description of Basket 2. Price: $15</p>
-        </div>
-      </div>
-      <div className="box">
-        <img src="image3.jpg" alt="Image 3" />
-        <div className="content">
-          <h3>Basket 3</h3>
-          <p>Description of Basket 3. Price: $20</p>
-        </div>
-      </div>
-      <div className="box">
-        <img src="image4.jpg" alt="Image 4" />
-        <div className="content">
-          <h3>Basket 4</h3>
+          <h3>Strawberry Gum Cubes</h3>
           <p>Description of Basket 4. Price: $25</p>
         </div>
       </div>

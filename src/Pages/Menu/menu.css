@@ -2,16 +2,30 @@ body{
     background-color: white;
 }
 
-/*header titile*/
-.titlePage{
-    text-align: center;
-    margin: 30px;
-    padding: 23px;
-    font-size: xx-large;
+
+/*sides to click when jump to page*/
+.sidestream{
+    color: red;
 }
-.titlePage p{
-    font-size: 24px;
-}
+
+/*title page*/
+.Title {
+    text-align: center; /* Center align the content */
+    background-image: url(); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    
+    padding: 50px; /* Add padding for spacing around the content */
+  }
+  
+  .Title h1 {
+    font-size: 2.5em; /* Adjust the font size of the title */
+  }
+  
+  .Title p {
+    font-size: 1.2em; /* Adjust the font size of the paragraph */
+  }
+  
 
 
 .titleHead{
@@ -114,3 +128,51 @@ button{
     margin: 15px;
     text-align: center;
   }
+
+  /*chart list of items */
+  /* Container styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Box styles */
+  .box {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid black;
+    display: flex;
+  }
+  
+  /* Image styles */
+  .box img {
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  /* Content styles */
+  .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+  /* Header styles */
+  .content h3 {
+    font-size: 24px;
+  }
+  
+  /* Description styles */
+  .content p {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+  }
+  

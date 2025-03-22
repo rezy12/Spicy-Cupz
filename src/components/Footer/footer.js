@@ -10,13 +10,13 @@ const Footer = () => {
                 <table role="presentation" cellPadding="0" cellSpacing="0" width="100%" border="0">
                     <tbody>
                         <tr>
-                            <td align="left" className="layOut">
+                            <td  className="layOut">
                                 <div align="center">
                                     <div className="img-container">
-                                        <table align="left" border="0" cellSpacing="0" cellPadding="0" className="imgSocial">
+                                        <table  border="0" cellSpacing="0" cellPadding="0" className="imgSocial">
                                             <tbody>
                                                 <tr>
-                                                    <td align="left" valign="middle">
+                                                    <td  valign="middle">
                                                         <a href="https://www.instagram.com/spicycupz/" title="Instagram" target="_blank">
                                                             <img src={InstLogo} alt="Instagram" title="Instagram"  />
                                                         </a>
@@ -24,12 +24,12 @@ const Footer = () => {
                                                 </tr>
                                             </tbody>
                                         </table>
-                                        <table align="left" border="0" cellSpacing="0" cellPadding="0" width="32" height="32" className="imgSocial">
+                                        <table  border="0" cellSpacing="0" cellPadding="0" className="imgSocial">
                                             <tbody>
                                                 <tr>
-                                                    <td align="left" valign="middle">
+                                                    <td  valign="middle">
                                                         <a href="https://t.snapchat.com/zRrTrajp" title="Snapchat" target="_blank">
-                                                            <img src={SnapChatlogo} alt="Snapchat" title="Snapchat" width="32" />
+                                                            <img src={SnapChatlogo} alt="Snapchat" title="Snapchat"  />
                                                         </a>
                                                     </td>
                                                 </tr>
@@ -46,7 +46,7 @@ const Footer = () => {
                 <table role="presentation" cellPadding="0" cellSpacing="0" width="100%" border="0">
                     <tbody>
                         <tr>
-                            <td align="left" className="v-container-padding-padding">
+                            <td  className="v-container-padding-padding">
                                 <div style={{ color: '#95a5a6', lineHeight: '180%', textAlign: 'center', wordWrap: 'break-word' }}>
                                     <p style={{ fontSize: '14px', lineHeight: '180%' }}>If you have any questions, feel free message us at <span style={{ color: '#c5b883', fontSize: '14px', lineHeight: '25.2px' }} rel="noopener" target="_blank">kajeenghazi@yahoo.com</span></p>
                                     <p style={{ fontSize: '14px', lineHeight: '180%' }}>All right reserved. Update email preferences or unsubscribe. <br />Plano, TX. United States <br /><span style={{ textDecoration: 'underline', fontSize: '14px', lineHeight: '25.2px' }}>Terms of use</span> | <span style={{ textDecoration: 'underline', fontSize: '14px', lineHeight: '25.2px' }}>Privacy Policy</span></p>
@@ -58,7 +58,7 @@ const Footer = () => {
                 <table role="presentation" cellPadding="0" cellSpacing="0" width="100%" border="0">
                     <tbody>
                         <tr>
-                            <td align="left" className="v-container-padding-padding">
+                            <td  className="v-container-padding-padding">
                                 <table height="0px" align="center" border="0" cellPadding="0" cellSpacing="0" width="100%" style={{ borderCollapse: 'collapse', tableLayout: 'fixed', borderSpacing: '0', msoTableLspace: '0pt', msoTableRspace: '0pt', verticalAlign: 'top', borderTop: '1px solid #ebf6f8', msTextSizeAdjust: '100%', WebkitTextSizeAdjust: '100%' }}>
                                     <tbody>
                                         <tr>

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 import "../Menu2/menu2.css"
 import React from 'react';
@@ -11,10 +11,7 @@ import MiniSweetCups from "../../components/Images/stack-cup.png";
 import SpicyPop from "../../components/Images/two-cup.jpg";
 
 /*Sweet sour candy*/
-=======
-import React from 'react';
-import Header from "../../components/Header/header";
-import Footer from '../../components/Footer/footer';
+
 import Spicy1 from "../../components/Images/spicy1.png";
 import Spicy2 from "../../components/Images/spicy2.png";
 import Spicy3 from "../../components/Images/spicy3.png";
@@ -25,14 +22,13 @@ import Spicy7 from "../../components/Images/spicy7.png";
 import Spicy8 from "../../components/Images/spicy8.png";
 import { Link } from "react-router-dom";
 import "../Menu/menu.css"
->>>>>>> origin/master
+
 
 
 
 const menu2 = () => {
   return (
     <>
-<<<<<<< HEAD
 
       <Header />
 
@@ -460,7 +456,6 @@ const menu2 = () => {
 
 
     <Footer />
->>>>>>> origin/master
     </>
   )
 }

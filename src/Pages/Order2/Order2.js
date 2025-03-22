@@ -1,5 +1,5 @@
 import React from 'react';
-<<<<<<< HEAD
+
 import "../Order2/Order2.css";
 import Header from '../../components/Header/header';
 import Footer from '../../components/Footer/footer';
@@ -32,19 +32,6 @@ const Order2 = () => {
       </div>
       <p className="note">Note: Custom baskets cost an additional $5.</p>
     </div>
-=======
-import Header from '../../components/Header/header';
-import Footer from '../../components/Footer/footer';
-import Basket1 from "../../components/Images/basket1.png";
-import Basket2 from "../../components/Images/basket2.png";
-import Basket3 from "../../components/Images/basket3.png";
-import Basket4 from "../../components/Images/basket4.png";
-import '../Order2/Order2.css'; 
-
-const Order2 = () => {
-  return (
-      <>
-      
       <Header />
 
 
@@ -90,12 +77,8 @@ const Order2 = () => {
     
   )
 }
->>>>>>> origin/master
 
     <Footer />
 
-    </>
-  );
-};
 
 export default Order2;
